@@ -10,6 +10,7 @@ Source0:	http://wwws.sun.com/software/xml/developers/%{name}/%{name}-%{version}.
 # Source0-md5:	41f3ab2d63d73a28ba2f328c0998e4b7
 BuildRequires:	perl-libxml-enno
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	unzip
 Requires:	perl-libxml-enno
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
