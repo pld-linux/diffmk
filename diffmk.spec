@@ -1,6 +1,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
-Summary:	Sun's XML difference tool in perl
+Summary:	Sun's XML difference tool in Perl
+Summary(pl):	Poerlowe narzêdzie Suna do znajdowania ró¿nic w plikach XML
 Name:		diffmk
 Version:	1.0
 Release:	1
@@ -15,8 +16,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-diffmk makes intelligently formatted output for showing changes in XML 
+diffmk makes intelligently formatted output for showing changes in XML
 documents.
+
+%description -l pl
+diffmk generuje intelligentnie sformatowane wyj¶cie ukazuj±ce zmiany w
+dokumentach XML.
 
 %prep
 %setup -c -q -n %{name}-%{version}
