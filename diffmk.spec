@@ -24,7 +24,7 @@ diffmk generuje inteligentnie sformatowane wyj¶cie ukazuj±ce zmiany w
 dokumentach XML.
 
 %prep
-%setup -c -q
+%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
