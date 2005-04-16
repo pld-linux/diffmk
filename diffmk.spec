@@ -6,7 +6,7 @@ Version:	1.0
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	http://wwws.sun.com/software/xml/developers/%{name}/%{name}-%{version}.zip
+Source0:	http://wwws.sun.com/software/xml/developers/diffmk/%{name}-%{version}.zip
 # Source0-md5:	41f3ab2d63d73a28ba2f328c0998e4b7
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	unzip
