@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Sun's XML difference tool in Perl
-Summary(pl.UTF-8):   Perlowe narzędzie Suna do znajdowania różnic w plikach XML
+Summary(pl.UTF-8):	Perlowe narzędzie Suna do znajdowania różnic w plikach XML
 Name:		diffmk
 Version:	1.0
 Release:	1
